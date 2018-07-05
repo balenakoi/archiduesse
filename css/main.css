@@ -294,14 +294,7 @@ a:active, a:hover {
     background-color: #444;
     border-color: #444;
 }
-.catpri {
-    display: flex;
-    align-items: center;
-    margin: 0px 44px;
-}
-.product_img_link_2{
-  margin-left: 6px;
-}
+
 .product-name  {
     color: #f6cdd4;
     font-style: italic;
@@ -310,7 +303,10 @@ a:active, a:hover {
     font-size: 14px;
     margin-left: 46px;
 }
-
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
 .size span {
     display: block;
     padding: 3px 0 0 0;
@@ -318,11 +314,7 @@ a:active, a:hover {
     font-family: Arial,sans-serif;
     line-height: 1.2em;
 }
-#reassurance {
-    text-align: center;
-    padding-bottom: 3em;
-    overflow: hidden;
-}
+
 
 
 
