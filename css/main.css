@@ -103,28 +103,28 @@ textarea {
        height:140px;
        width: 100%;
    }
-#mainmenu {
+.mainmenu {
     font-size: 14px;
     display:contents;
 
 }
-#mainmenu li {
+.mainmenu li {
     display: inline-block;
     padding: 0 2px;
 }
-#mainmenu li.menu_actif a, #mainmenu li a:hover {
+.mainmenu li.menu_actif a, .mainmenu li a:hover {
     background-color: #e7e7e7;
     color: #444;
     text-decoration: none;
 }
-#mainmenu li a {
+.mainmenu li a {
 
     border-radius: 5px;
     padding: 5px 14px;
     color: #444;
     position: relative;
 }
-#header_logo, .img-404 {
+.header_logo, .img-404 {
   width: 25%;
     display: flex;
     background: transparent url("https://media.archiduchesse.com/themes/axome/css/../img/svg/logo-normal.svg") no-repeat;
@@ -140,7 +140,7 @@ a {
     color: #444;
     text-decoration: none;
 }
-#languages_block_top {
+.languages_block_top {
     display: block;
     margin: -20px -40px 0 0;
     color: #777;
@@ -150,13 +150,13 @@ a {
     position: absolute;
     right: 220px;
 }
-#languages_block_top li:first-child {
+.languages_block_top li:first-child {
     border: none;
     cursor: pointer;
     height: auto;
     opacity: 1;
 }
-#languages_block_top li {
+.languages_block_top li {
     margin: 0;
     display: block;
     line-height: 1;
@@ -165,10 +165,10 @@ a {
     overflow: hidden;
     transition: all 0.3s;
 }
-#languages_block_top li span {
+.languages_block_top li span {
     position: relative;
 }
-#languages_block_top li a, #languages_block_top li span {
+.languages_block_top li a, .languages_block_top li span {
     transition: all 0.3s;
     display: block;
     padding: 2px 4px 3px 4px;
@@ -177,7 +177,7 @@ a {
     line-height: 1;
     text-shadow: 0 1px 0 rgba(0,0,0,0.2);
 }
-#header_user {
+.header_user {
     display: block;
     z-index: 10;
     font-size: 14px;
@@ -187,11 +187,11 @@ a {
     right: 215px;
   margin-top: -15px;
 }
-#header_user a {
+.header_user a {
     color: #777;
     font-size: 14px;
 }
-#languages_block_top li span::before {
+.languages_block_top li span::before {
     content: '\25bc';
     display: block;
     float: right;
@@ -418,7 +418,7 @@ a {
   background: url("https://cdn.discordapp.com/attachments/464705680691953674/464705868882116609/delivery.png");
   background-repeat: no-repeat;
 }
-#footer #copyright {
+.footer .copyright {
     background: #f5f5f5;
     box-shadow: 900px 0 0 #f5f5f5,-900px 0 0 #f5f5f5;
     font-size: 16px;
@@ -427,25 +427,25 @@ a {
     display: flex;
 }
 
-.col-md-3, #footer #copyright #adresse, #footer #copyright #news-social {
+.col-md-3, .footer .copyright .adresse, .footer .copyright .news-social {
     width: 25%;
 }
-#footer #copyright #adresse svg {
+.footer .copyright .adresse svg {
     max-width: 100%;
 }
 
-#footer #copyright #adresse p {
+.footer .copyright .adresse p {
     font-size: 16px;
     line-height: 24px;
     text-align: center;
     color: #777777
   }
-  #footer #copyright .menu-footer {
+  .footer .copyright .menu-footer {
     font-style: normal;
     padding-top: 1em;
     text-align: center;
 }
-.col-md-2, #footer #copyright .menu-footer {
+.col-md-2, .footer .copyright .menu-footer {
     width: 16.66667%;
 }
 p {
@@ -459,13 +459,13 @@ ul, ol {
 ul {
     list-style: none;
 }
- #footer #copyright .menu-footer li a {
+ .footer .copyright .menu-footer li a {
     color: #777777
     text-decoration: none;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
 }
-#footer #copyright #news-social #social_block {
+.footer .copyright .news-social .social_block {
 
     padding-bottom: 1em;
 
@@ -474,6 +474,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 
     display: block;
 
+}
+.wrap {
+    padding-top: 2.5em;
+}
+.col-md-3 {
+    -ms-flex: 0 0 25%;
+    flex: 12 0 25%;
+    max-width: 100%;
+    margin-left: 60px;
 }
 
 
