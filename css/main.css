@@ -157,7 +157,7 @@ a {
     opacity: 1;
 }
 .languages_block_top li {
-    margin: 0;
+    margin: 10px auto;
     display: block;
     line-height: 1;
     height: 0;
@@ -289,6 +289,145 @@ a:active, a:hover {
       margin-top: 15px;
       transition-duration: .3s;
 }
+.articles .container-fluid{
+  margin-top: 30px;
+}
+
+.articles .container-fluid .solde{
+  margin-bottom: 100px;
+  margin-left: 20px;
+}
+.articles .container-fluid .row .newcat img{
+  width : 180%;
+}
+
+.articles .container-fluid .row .newcat .chaussette{
+  margin : auto;
+}
+.articles .solde .solde ul li{
+  font-family:Georgia,Times,"Times New Roman",serif;
+  list-style-type: none;
+  margin-top: 10px;
+  margin-left: -25px;
+  flex-direction: column;
+}
+.articles .solde img{
+  width : 100%;
+  height : auto;
+}
+.articles .solde .soldemobile .buttonGrey{
+  color : #494444;
+  background-color: lightgrey;
+  font-size: 13px;
+  padding : 5px;
+  border-radius: 7px;
+}
+
+.articles .solde .soldemobile .bigsolde{
+  color : #494444;
+  font-size: 30px;
+}
+
+.articles .solde .soldemobile .buttonblack{
+  color : white;
+  background-color: #444444;
+  font-size: 16px;
+  padding : 12px;
+  border-radius: 7px;
+}
+
+.articles .chaussette .title_article{
+  width : 180%;
+  border : 1px solid white;
+  box-shadow: 0px 15px 15px -16px; rgba(0,0,0,1);
+}
+
+.articles .chaussette .title_article p{
+  font-size: 13px;
+  text-align: center;
+  color : #913035;
+    font-family:Georgia,Times,"Times New Roman",serif;
+}
+
+.articles .chaussette .title_article span{
+  font-size: 20px;
+  font-family:Georgia,Times,"Times New Roman",serif;
+  margin-left: 20px;
+}
+
+.articles .chaussette .specificities ul li{
+  list-style-type: none;
+  display: inline;
+  text-align: center;
+  font-size: 10px;
+  margin-left: 15px;
+  color: white;
+  background-color: #7d2a35;
+  padding : 8px 5px 15px 5px;
+  border-top: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.articles .chaussette .specificities ul{
+margin-left: 15px;
+width : 100%;
+}
+
+/*Partie basse articles*/
+
+.row{
+  width : 100%;
+}
+.articles .chaussettes .title_article{
+  border : 1px solid white;
+  box-shadow: 0px 15px 15px -16px; rgba(0,0,0,1);
+  width : 100%;
+}
+
+.articles .chaussettes .title_article p{
+  font-size: 13px;
+  text-align: center;
+  color : #913035;
+  font-family:Georgia,Times,"Times New Roman",serif;
+  width : 100%;
+}
+
+.articles .chaussettes .title_article span{
+  font-size: 20px;
+  font-family:Georgia,Times,"Times New Roman",serif;
+  margin-left: 20px;
+}
+
+.articles .chaussettes .specificities ul li{
+  list-style-type: none;
+  display: inline;
+  text-align: center;
+  font-size: 10px;
+  margin-left: 15px;
+  color: white;
+  background-color: #7d2a35;
+  padding : 8px 5px 15px 5px;
+  border-top: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.articles .chaussettes .specificities ul{
+margin-left: 15px;
+margin-bottom: 100px;
+width : 100%;
+}
+
+.articles .background{
+  background-image: url("https://media.archiduchesse.com/3625-home_default/chaussettes-rose-framboise.jpg");
+  width : 92%;
+}
+
+.articles a img:hover{
+  opacity: 0;
+  transition : 0.3s
+}
 .findout {
     color: #FFF;
     background-color: #444;
@@ -302,10 +441,6 @@ a:active, a:hover {
     box-shadow: 0px 9px 22px ;
     font-size: 14px;
     margin-left: 46px;
-}
-.row {
-    margin-right: 0px;
-    margin-left: 0px;
 }
 .size span {
     display: block;
